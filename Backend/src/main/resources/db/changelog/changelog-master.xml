@@ -5,6 +5,6 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
     <changeSet id="1" author="da">
-        <sqlFile path="db/changelog/sql/test.sql" splitStatements="true"/>
+        <sqlFile path="db/changelog/sql/data.sql" splitStatements="true"/>
     </changeSet>
 </databaseChangeLog>
