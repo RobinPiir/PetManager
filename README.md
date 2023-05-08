@@ -1,6 +1,12 @@
 # PetManager
 The project is a web application built with Spring Boot and Angular. The purpose of the application is to manage a list of pets and their details.
 
+The project was built on the following versions of used software: \
+Java 20 \
+Angular CLI 16 \
+Node.js v18.16.0 \
+npm 9.5.1
+
 Project Structure
 The project follows the standard Spring Boot and Angular project structures:
 
