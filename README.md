@@ -62,3 +62,8 @@ POST /updatePet/{id}: Edits an existing pet
 
 GET /api/getColors: returns a list of possible pet colors. \
 GET /api/getTypes: returns a list of possible pet types. 
+
+## Author's notes (For the Wisercat representative, in Estonian)
+See testülesanne oli väga hariv ja põnev väljakutse. Kuna ma polnud Angulariga kunagi tegelenud, oli selle algusest õppimine ja tööle panemine niivõrd limiteeritud aja jooksul üpris keeruline. Sai vaadatud väga palju Youtube'is leiduvaid kursuseid antud teemadel. Isegi kui ma pärast kõike seda praktikakohta ei saa, on mul hea meel, et ma selle projekti valmis kirjutasin. Õppisin väga palju.
+
+Oleks tahtnud ka valikulised ülesanded kõik implementeerida, kuid kahjuks kooli kõrvalt lihtsalt ei jõudnud.
