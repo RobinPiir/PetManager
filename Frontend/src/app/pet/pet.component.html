@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pets list</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Pets</h2>
+    </div>
+
+    <div class="row">
+        <button class="btn btn-primary w-auto" routerLink="add">Add pet</button>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Code</th>
+                <th scope="col">Type</th>
+                <th scope="col">Fur color</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor = "let pet of pets ">
+                <th> {{ pet.id}}</th>
+                <td> {{ pet.name}}</td>
+                <td> {{ pet.code}}</td>
+                <td> {{ pet.type}}</td>
+                <td> {{ pet.color}}</td>
+                <td>
+                    <a [routerLink]="['/edit', pet.id]" class="btn btn-primary">Edit pet</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<router-outlet></router-outlet>
+
+<footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2022 Wisercat</p>
+</footer>
+</body>
+</html>
