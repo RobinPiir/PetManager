@@ -7,7 +7,7 @@ Angular CLI 16 \
 Node.js v18.16.0 \
 npm 9.5.1
 
-Project Structure
+## Project Structure
 The project follows the standard Spring Boot and Angular project structures:
 
 ```
@@ -40,7 +40,7 @@ The project follows the standard Spring Boot and Angular project structures:
 
 The Backend folder contains the Spring Boot application, while the Frontend folder contains the Angular application. 
 
-Getting Started \
+## Getting Started 
 To run the application locally, follow these steps: 
 
 Clone the repository: **git clone https://github.com/RobinPiir/PetManager.git** \
@@ -52,7 +52,7 @@ Build the Docker container: **docker build -t pet-manager-frontend .** \
 Run the Docker container: **docker run -p 4200:4200 pet-manager-frontend** \
 The application can then be accessed at http://localhost:4200.
 
-API Documentation \
+## API Documentation 
 The application exposes a REST API with the following endpoints:
 
 GET /api/getAll: Returns a list of all pets. \
