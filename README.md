@@ -44,12 +44,9 @@ The Backend folder contains the Spring Boot application, while the Frontend fold
 To run the application locally, follow these steps: 
 
 Clone the repository: **git clone https://github.com/RobinPiir/PetManager.git** \
-Navigate to the backend folder: **cd Backend** \
-Build the Docker container: **docker build -t pet-manager-backend .** \
-Run the Docker container: **docker run -p 8080:8080 pet-manager-backend** \
-Navigate to the frontend folder: **cd ../frontend** \
-Build the Docker container: **docker build -t pet-manager-frontend .** \
-Run the Docker container: **docker run -p 4200:4200 pet-manager-frontend** \
+Run the backend: **java -jar Backend.jar** \
+Navigate to the frontend folder: **cd frontend** \
+Run the frontend: **npm i** and **npm start** \
 The application can then be accessed at http://localhost:4200.
 
 ## API Documentation 
